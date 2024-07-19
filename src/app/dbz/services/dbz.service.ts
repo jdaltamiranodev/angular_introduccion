@@ -5,18 +5,31 @@ import { Character } from '../interfaces/character.interface';
 @Injectable({providedIn: 'root'})
 export class DbzService {
 
-  public characters: Character[] = [{
-    id: uuid(),
-    name: 'Krillin',
-    power: 1000
-  },{
+  public characters: Character[] = [
+    {
     id: uuid(),
     name: 'Goku',
-    power: 9500
+    power: 8000
   },{
     id: uuid(),
     name: 'Vegeta',
-    power: 7500
+    power: 16000
+  },{
+    id: uuid(),
+    name: 'Nappa',
+    power: 7000
+  },{
+    id: uuid(),
+    name: 'Krillin',
+    power: 1770
+  },{
+    id: uuid(),
+    name: 'Piccolo',
+    power: 3500
+  },{
+    id: uuid(),
+    name: 'Gohan',
+    power: 1000
   }];
 
 
